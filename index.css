@@ -1,0 +1,38 @@
+#clockContainer{
+    border: 5px solid brown;
+    margin: auto;
+    background-color:burlywood;
+    height: 80vw;
+    width: 80vw;
+    background-size: 100%;
+    background: url(/home/isha/Desktop/Apps/clock/clockimg.jpg) no-repeat;
+
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour{
+    width:1%;
+    height: 49%;
+    top: 21%;
+    left:45%;
+    opacity:0.8;
+}
+#minute{
+    width:1%;
+    height: 49%;
+    top: 21%;
+    left:45%;
+    opacity: 0.8;
+}
+#second{
+    width:1%;
+    height: 49%;
+    top: 21%;
+    left:45%;
+    opacity:0.8;
+}
